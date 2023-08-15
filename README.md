@@ -31,5 +31,5 @@ The trace-based runtime simulation uses real-life SMFC power traces and the user
 The data collected from our 2-year-long iterative design process is in `Data/design_iterations`. It includes the data from our v0, v1, v2, and v3 prototypes, and we also included the data from our outdoor deployment of the v3.1 cell in `Data/outdoor_deployment.csv`.
 
 <p align="center">
-  <img src="/doc-images/design_iteration_final.png/>
+  <img src="/doc-images/design_iteration_final.png"/>
 </p>
