@@ -1,2 +1,2 @@
-# Practical_SMFC_Design_Guide
-Repository for practical soil-powered computing.
+# Practical SMFC Design Guide
+Official repository for practical soil-powered computing. Detailed README is coming soon.
