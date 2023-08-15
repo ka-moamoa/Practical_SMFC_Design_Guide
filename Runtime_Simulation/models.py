@@ -51,7 +51,6 @@ def Matrix_Power(V, R):
     Pout = Eta*Pmax
     assert((Eta > 0) & (Eta < 1))
     assert(Pout < 500e-6)
-    #print(Pout)
     return Pout
 
 def update_capEnergy(e0, V_applied, R, C, dt):
