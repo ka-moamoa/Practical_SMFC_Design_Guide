@@ -70,20 +70,21 @@ def update_capEnergy(e0, V_applied, R, C, dt):
 def Ambiq_energy():
     #Now representing "Advanced"
     #startup time of 2500 ms
-    #t = 2500e-3
-    #e = 2.4 * 128e-3 * t
-    #e_startup = 2.4 * 5e-3 * 128e-3
-    return 0.768
+    t = 2500e-3
+    e = 2.4 * 128e-3 * t
+    e_startup = 2.4 * 128e-3 * 5e-3
+    return e+e_startup
 
 def MSP430_energy():
     #Now representing "Minimal"
     t = 0.888e-3 #tentative time
-    e = 0.9 * 3.5e-6 * t
-    e_startup = 0#2.2 * 90e-6 * 5e-4
+    e = 0.9 * 12.4e-3 * t
+    e_startup = 0#assume negligible, no known startup time given
     return  e + e_startup
 
 def MARS_energy():
-    t = 1e-3 #tentative time (NIVEDITA)
+    #Now representing Analog
+    t = 1e-3 #estimated operating time
     e = 0.11 * 2.15e-6 * t
     e_startup = 0 #analog device, no startup needed :)
     return e + e_startup

@@ -37,6 +37,10 @@ C3 = [0.007000000000000006, 0.007000000000000006, 0.007000000000000006]
 Ambiq0, MSP430_0, ignore = models.simulate(days, v0_avg_v, C0)
 Ambiq3, MSP430_3, ignore = models.simulate(days, v3_avg_v, C3)
 
+print(sum(Ambiq3)/sum(Ambiq0))
+print(sum(MSP430_3)/sum(MSP430_0))
+print(sum(MARS_on_3)/sum(MARS_on_0))
+
 #generate graphs to visualize data below:
 visualizations.bar_subplots_mars(days, MARS_on_0, MARS_on_3)
 visualizations.bar_subplots2(Ambiq0, Ambiq3, MSP430_0, MSP430_3) # generate graph 13
