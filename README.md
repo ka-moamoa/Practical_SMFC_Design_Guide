@@ -6,7 +6,18 @@ This is the official repository for practical soil-powered computing.
 </p>
 
 ## Project Abstract
-Human-caused climate degradation and the explosion of electronic waste have pushed the computing community to explore fundamental alternatives to the current battery-powered, over-provisioned ubiquitous computing devices that need constant replacement and recharging. Soil Microbial Fuel Cells (SMFCs) offer promise as a renewable energy source that is biocompatible and viable in difficult environments where traditional batteries and solar panels fall short. However, SMFC development is in its infancy, and challenges like robustness to environmental factors and low power output stymie efforts to implement real-world applications in terrestrial environments. This work details a 2-year iterative process that uncovers barriers to practical SMFC design for powering electronics, which we address through a mechanistic understanding of SMFC theory from the literature. We present nine months of deployment data gathered from four SMFC experiments exploring cell geometries, resulting in an improved SMFC that generates power across a wider soil moisture range. From these experiments, we extracted key lessons and a testing framework, assessed SMFC’s field performance, contextualized improvements with emerging and existing computing systems, and demonstrated the improved SMFC powering a wireless sensor for soil moisture and touch sensing. We contribute our data, methodology, and designs to establish the foundation for a sustainable, soil-powered future.
+Human-caused climate degradation and the explosion of electronic waste have pushed the computing community to explore
+fundamental alternatives to the current battery-powered, over-provisioned ubiquitous computing devices that need constant
+replacement and recharging. Soil Microbial Fuel Cells (SMFCs) offer promise as a renewable energy source that is biocompatible
+and viable in difficult environments where traditional batteries and solar panels fall short. However, SMFC development is
+in its infancy, and challenges like robustness to environmental factors and low power output stymie efforts to implement
+real-world applications in terrestrial environments. This work details a 2-year iterative process that uncovers barriers to
+practical SMFC design for powering electronics, which we address through a mechanistic understanding of SMFC theory from
+the literature. We present nine months of deployment data gathered from four SMFC experiments exploring cell geometries,
+resulting in an improved SMFC that generates power across a wider soil moisture range. From these experiments, we extracted
+key lessons and a testing framework, assessed SMFC’s field performance, contextualized improvements with emerging and
+existing computing systems, and demonstrated the improved SMFC powering a wireless sensor for soil moisture and touch
+sensing. We contribute our data, methodology, and designs to establish the foundation for a sustainable, soil-powered future.
 
 ## 3D-Printable Soil Microbial Fuel Cells (SMFC)
 The `.stl` files for the baseline v0 SMFC and the improved v3.1 SMFC can be found in the `CAD` folder.
