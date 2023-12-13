@@ -1,4 +1,4 @@
-# Soil-Powered Computing::seedling: <br> The Engineer's Guide to _Practical_ SMFC Design:gear:
+# Soil-Powered Computing:🌱 <br> The Engineer's Guide to _Practical_ SMFC Design⚙️
 This is the official repository for practical soil-powered computing.
 
 <p align="center">
