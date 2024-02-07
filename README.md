@@ -1,5 +1,5 @@
 # Soil-Powered Computing:🌱 <br> The Engineer's Guide to _Practical_ SMFC Design⚙️
-This is the official repository for practical soil-powered computing.
+This is the official repository for practical soil-powered computing. See our full paper [here](https://doi.org/10.1145/3631410).
 
 <p align="center">
   <img src="./doc-images/MFC_Figure.png"/>
